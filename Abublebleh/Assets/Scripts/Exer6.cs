@@ -1,25 +1,24 @@
 using UnityEngine;
 
-public class playa : MonoBehaviour
+public class Exer6 : MonoBehaviour
 {
 
-
+    [SerializeField] public int idade;
+    
 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        string mimimi = "aaaaaaaaaaaaaaa";
 
-        print(mimimi);
-
+        Debug.Log(idade);
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        print("hello world");
+        
     }
 }
